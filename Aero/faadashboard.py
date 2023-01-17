@@ -24,7 +24,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
 
 app.layout = html.Div([
     dbc.Row([
-        dbc.Col(html.H1("My Dashboard"), md=12)
+        dbc.Col(html.H1("FAA Analysis"), md=12)
     ]),
     dbc.Row([
         dbc.Col(dbc.Select(
